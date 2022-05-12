@@ -1,6 +1,6 @@
 {
   "name": "@di-strix/quizee-verification-functions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Set of verification functions to validate quizee",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
