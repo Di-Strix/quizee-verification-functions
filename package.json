@@ -4,6 +4,7 @@
   "description": "Set of verification functions to validate quizee",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "repository": "github:Di-Strix/quizee-verification-functions",
   "files": [
     "dist/**/*"
   ],
