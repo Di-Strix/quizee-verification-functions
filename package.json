@@ -1,0 +1,29 @@
+{
+  "name": "@di-strix/quizee-verification-functions",
+  "version": "1.0.0",
+  "description": "Set of verification functions to validate quizee",
+  "main": "index.js",
+  "repository": {
+    "url": "git://github.com/Di-Strix/quizee-verification-functions"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "quizee"
+  ],
+  "author": "Andrew Ushakov",
+  "license": "MIT",
+  "dependencies": {
+    "joi": "^17.6.0"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^3.2.0",
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.4"
+  }
+}
