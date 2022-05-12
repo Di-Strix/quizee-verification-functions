@@ -1,4 +1,4 @@
-import { Schema, ValidationResult } from 'joi';
+import { AsyncValidationOptions, Schema, ValidationResult } from 'joi';
 
 import {
   answerConfigSchema,
@@ -13,8 +13,8 @@ export * as QuizeeSchemas from './schemas';
 
 const generateVerifier =
   <T>(schema: Schema<T>) =>
-  (testSubject: T): Promise<ValidationResult<T>> =>
-    schema.validateAsync(testSubject);
+  (testSubject: T, options?: AsyncValidationOptions): Promise<ValidationResult<T>> =>
+    schema.validateAsync(testSubject, { abortEarly: false, ...options });
 
 export const verifyQuizeeInfo = generateVerifier(quizeeInfoSchema);
 export const verifyAnswerConfig = generateVerifier(answerConfigSchema);
