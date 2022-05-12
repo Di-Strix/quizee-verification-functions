@@ -10,7 +10,7 @@ export const answerOptionIdSchema = Joi.string().uuid();
 export const quizeeInfoSchema = Joi.object<QuizInfo>({
   caption: Joi.string().required(),
   img: Joi.string().uri().allow(''),
-  id: Joi.string().uuid(),
+  id: Joi.string().uuid().allow(''),
   questionsCount: Joi.number().greater(0).required(),
 });
 
