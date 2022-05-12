@@ -19,6 +19,7 @@
   "author": "Andrew Ushakov",
   "license": "MIT",
   "dependencies": {
+    "@di-strix/quizee-types": "^3.0.1",
     "joi": "^17.6.0"
   },
   "devDependencies": {
