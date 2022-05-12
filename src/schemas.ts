@@ -1,6 +1,6 @@
 import { Answer, AnswerOption, Question, QuestionType, Quiz, QuizInfo } from '@di-strix/quizee-types';
 
-import Joi from 'joi';
+import * as Joi from 'joi';
 
 const questionTypes: QuestionType[] = ['ONE_TRUE', 'SEVERAL_TRUE', 'WRITE_ANSWER'];
 
