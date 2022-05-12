@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.3] - 12.05.2022
+
+### Fixed
+
+- Switch to ESNext module setting instead of commonjs
+
 ## [1.0.2] - 12.05.2022
 
 ### Fixed
