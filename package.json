@@ -19,10 +19,10 @@
   "author": "Andrew Ushakov",
   "license": "MIT",
   "dependencies": {
-    "@di-strix/quizee-types": "^3.0.1",
     "joi": "^17.6.0"
   },
   "devDependencies": {
+    "@di-strix/quizee-types": "^3.0.1",
     "@trivago/prettier-plugin-sort-imports": "^3.2.0",
     "prettier": "^2.6.2",
     "typescript": "^4.6.4"
