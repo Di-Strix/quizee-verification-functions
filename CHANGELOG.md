@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.4] - 12.05.2022
+
+### Added
+
+- id field for quizee info
+
+### Changed
+
+- img field is not required now
+
 ## [1.0.3] - 12.05.2022
 
 ### Fixed
