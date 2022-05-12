@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.0] - 12.05.2022
+
+### Added
+
+- Allow providing custom validation settings
+
+### Changed
+
+- Get all validations error by default
+
+### Fixed
+
+- Allow quiz id to be empty
+
 ## [1.1.1] - 12.05.2022
 
 ### Fixed
