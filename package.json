@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Set of verification functions to validate quizee",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist/**/*"
   ],
