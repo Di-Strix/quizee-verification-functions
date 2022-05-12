@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.1] - 12.05.2022
+
+### Fixed
+
+- Allow img uri to be empty
+
 ## [1.1.0] - 12.05.2022
 
 ### Added
