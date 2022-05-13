@@ -17,7 +17,7 @@ const generateVerifier =
     try {
       schema.validateAsync(testSubject, { abortEarly: false, ...options });
       return [];
-    } catch (err) {
+    } catch (err: any) {
       return err.details;
     }
   };
