@@ -2,14 +2,22 @@
   "name": "@di-strix/quizee-verification-functions",
   "version": "1.2.0",
   "description": "Set of verification functions to validate quizee",
-  "main": "./dist/index.js",
+  "main": "./dist/cjs/index.js",
+  "type": "module",
   "types": "./dist/index.d.ts",
   "repository": "github:Di-Strix/quizee-verification-functions",
   "files": [
     "dist/**/*"
   ],
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
+    }
+  },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -b tsconfig-cjs.json tsconfig-esm.json tsconfig-types.json",
     "prepare": "npm run build"
   },
   "keywords": [
