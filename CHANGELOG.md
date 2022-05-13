@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.0] - 13.05.2022
+
+### Changed
+
+- Verification functions return only an array of errors
+- Verification function's promises don't reject anymore
+
 ## [1.3.1] - 13.05.2022
 
 ### Fixed
