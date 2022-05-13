@@ -15,7 +15,7 @@ const generateVerifier =
   <T>(schema: Schema<T>) =>
   async (testSubject: T, options?: AsyncValidationOptions): Promise<ValidationErrorItem[]> => {
     try {
-      schema.validateAsync(testSubject, { abortEarly: false, ...options });
+      await schema.validateAsync(testSubject, { abortEarly: false, ...options });
       return [];
     } catch (err: any) {
       return err.details;
