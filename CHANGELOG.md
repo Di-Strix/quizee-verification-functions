@@ -2,6 +2,12 @@
 
 ## [2.0.0] - 13.05.2022
 
+### Fixed
+
+- Wait for validation completion before returning
+
+## [2.0.0] - 13.05.2022
+
 ### Changed
 
 - Verification functions return only an array of errors
