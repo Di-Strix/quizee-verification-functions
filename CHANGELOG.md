@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.3.0] - 13.05.2022
+
+### Added
+
+- Now both cjs and esm versions are available
+
 ## [1.2.0] - 12.05.2022
 
 ### Added
