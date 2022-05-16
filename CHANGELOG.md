@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.0] - 16.05.2022
+
+### Added
+
+- Add VerificationError and VerificationErrors types which are exported as well
+
 ## [2.0.0] - 13.05.2022
 
 ### Fixed

@@ -11,9 +11,12 @@ import {
 
 export * as QuizeeSchemas from './schemas';
 
+export type VerificationError = ValidationErrorItem;
+export type VerificationErrors = VerificationError[];
+
 const generateVerifier =
   <T>(schema: Schema<T>) =>
-  async (testSubject: T, options?: AsyncValidationOptions): Promise<ValidationErrorItem[]> => {
+  async (testSubject: T, options?: AsyncValidationOptions): Promise<VerificationErrors> => {
     try {
       await schema.validateAsync(testSubject, { abortEarly: false, ...options });
       return [];
