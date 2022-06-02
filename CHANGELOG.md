@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.2] - 02.06.2022
+
+### Fixed
+
+- Prohibit answer option value to contain only spaces
+- Add answerOption schema to answer options array
+
 ## [2.1.1] - 02.06.2022
 
 ### Fixed
