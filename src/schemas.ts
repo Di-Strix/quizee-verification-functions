@@ -21,7 +21,7 @@ export const answerConfigSchema = Joi.object<Answer['config']>({
 
 export const answerOptionSchema = Joi.object<AnswerOption>({
   id: answerOptionIdSchema.required(),
-  value: Joi.string().required(),
+  value: Joi.string().trim().required(),
 });
 
 export const questionSchema = Joi.object<Question>({
