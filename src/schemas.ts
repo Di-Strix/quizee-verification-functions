@@ -6,6 +6,7 @@ const questionTypes: QuestionType[] = ['ONE_TRUE', 'SEVERAL_TRUE', 'WRITE_ANSWER
 
 export const questionIdSchema = Joi.string().uuid();
 export const answerOptionIdSchema = Joi.string().uuid();
+export const customAnswerOptionSchema = Joi.string();
 
 export const quizeeInfoSchema = Joi.object<QuizInfo>({
   caption: Joi.string().required(),
@@ -33,7 +34,7 @@ export const questionSchema = Joi.object<Question>({
 });
 
 export const answerSchema = Joi.object<Answer>({
-  answer: Joi.array().items(answerOptionIdSchema).required(),
+  answer: Joi.array().items(answerOptionIdSchema, customAnswerOptionSchema).required(),
   answerTo: questionIdSchema.required(),
   config: answerConfigSchema.required(),
 });
