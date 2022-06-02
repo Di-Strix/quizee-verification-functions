@@ -30,7 +30,7 @@ export const questionSchema = Joi.object<Question>({
   type: Joi.string()
     .allow(...questionTypes)
     .required(),
-  answerOptions: Joi.array().items().required(),
+  answerOptions: Joi.array().items(answerOptionSchema).required(),
 });
 
 export const answerSchema = Joi.object<Answer>({
