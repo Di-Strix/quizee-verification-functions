@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.1] - 02.06.2022
+
+### Fixed
+
+- Allow answer options array to contain custom string. Required for WRITE_ANSWER question type.
+
 ## [2.1.0] - 16.05.2022
 
 ### Added
