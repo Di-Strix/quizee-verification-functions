@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.3] - 18.06.2022
+
+### Fixed
+
+- Remove module type from package.json to let cjs modules to be imported via `require` correctly
+
 ## [2.1.2] - 02.06.2022
 
 ### Fixed
