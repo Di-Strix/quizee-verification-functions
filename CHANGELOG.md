@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.4] - 11.08.2022
+
+### Fixed
+
+- Remove `uuid` filter from info->id field since Firebase generates non-guid value
+
 ## [2.1.3] - 18.06.2022
 
 ### Fixed
