@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.5] - 28.02.2023
+
+### Fixed
+
+- Min length of `answer` array is 1
+
 ## [2.1.4] - 11.08.2022
 
 ### Fixed
