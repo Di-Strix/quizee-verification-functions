@@ -34,7 +34,7 @@ export const questionSchema = Joi.object<Question>({
 });
 
 export const answerSchema = Joi.object<Answer>({
-  answer: Joi.array().items(answerOptionIdSchema, customAnswerOptionSchema).required(),
+  answer: Joi.array().items(answerOptionIdSchema, customAnswerOptionSchema).required().min(1),
   answerTo: questionIdSchema.required(),
   config: answerConfigSchema.required(),
 });
