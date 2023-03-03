@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.6] - 03.03.2023
+
+### Fixed
+
+- Explicitly add `node` types
+- Min length of `answerOptions` array is 1
+
 ## [2.1.5] - 28.02.2023
 
 ### Fixed
