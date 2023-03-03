@@ -5,6 +5,7 @@
     "moduleResolution": "Node",
     "declaration": false,
     "strict": true,
+    "types": ["node"],
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true
   },
