@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.7] - 06.03.2023
+
+### Fixed
+
+- Min length of `answerOptions` array is 0 if question type is `WRITE_ANSWER`
+
 ## [2.1.6] - 03.03.2023
 
 ### Fixed
